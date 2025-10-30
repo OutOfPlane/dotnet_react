@@ -4,10 +4,11 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <PublishSingleFile>true</PublishSingleFile>
+    <PublishSingleFile>false</PublishSingleFile>
     <SelfContained>false</SelfContained>
     <PublishTrimmed>false</PublishTrimmed>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <UseAppHost>false</UseAppHost>
   </PropertyGroup>
 
   <ItemGroup>
