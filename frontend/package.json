@@ -1,0 +1,61 @@
+{
+  "name": "react_frontend",
+  "homepage": ".",
+  "main": "dist/electron.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.6.4",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "electron-is-dev": "^3.0.1",
+    "i18next": "^25.3.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-i18next": "^15.6.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-all": "concurrently \"node launch_backend.js\" \"react-scripts start\"",
+    "build": "react-scripts build && tsc -p tsconfig.electron.json",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "build-windows": "electron-packager . react_frontend --overwrite --platform=win32 --arch=x64 --prune=true --out=release/windows --ignore=^/src --ignore=^/src-electron --ignore=^/public --ignore=^/release",
+    "build-linux": "electron-packager . react_frontend --overwrite --platform=linux --arch=x64 --prune=true --out=release/linux --ignore=^/src --ignore=^/src-electron --ignore=^/public --ignore=^/release"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.0",
+    "electron": "^37.2.5",
+    "electron-packager": "^17.1.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.2"
+  }
+}

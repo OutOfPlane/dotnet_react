@@ -1,0 +1,8 @@
+{
+  "assemblies": [
+    "bin/Debug/net9.0/net_backend.dll"
+  ],
+  "fileHeading": "// @ts-nocheck\n\n",
+  "outputPath": "../../frontend/src/backendmodels",
+  "createIndexFile": true
+}

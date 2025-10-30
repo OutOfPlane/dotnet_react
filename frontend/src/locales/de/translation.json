@@ -1,0 +1,13 @@
+{
+  "welcome": "Willkommen, {{name}}!",
+  "Unhandled Exception": "Unbehandelte Ausnahme",
+  "This is the dashboard view. Display summaries, widgets, etc.": "Das ist die Dashboard Ansicht, hier siehst du Zusammenfassungen, Infotafeln, etc.",
+  "menu": {
+    "dashboard": "Übersicht",
+    "base": "Stammdaten",
+    "settings": "Einstellungen"
+  },
+  "controls": {
+    "logout": "Abmelden"
+  }
+}

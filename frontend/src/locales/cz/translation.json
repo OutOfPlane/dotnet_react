@@ -1,0 +1,7 @@
+{
+  "welcome": "Willkommen, {{name}}!",
+  "menu": {
+    "dashboard": "Přehled",
+    "settings": "Nastavení"
+  }
+}

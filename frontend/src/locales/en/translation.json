@@ -1,0 +1,11 @@
+{
+  "welcome": "Welcome, {{name}}!",
+  "menu": {
+    "dashboard": "Dashboard",
+    "base": "Base",
+    "settings": "Settings"
+  },
+  "controls": {
+    "logout": "Logout"
+  }
+}
