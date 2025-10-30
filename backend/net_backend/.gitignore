@@ -488,3 +488,7 @@ $RECYCLE.BIN/
 # custom exemptions
 *.db
 Migrations/*_DevMigration.*
+!bin/
+!bin/Release/
+bin/Release/net9.0/linux-arm64/*
+!bin/Release/net9.0/linux-arm64/publish/
