@@ -490,4 +490,3 @@ $RECYCLE.BIN/
 Migrations/*_DevMigration.*
 !bin/
 !bin/Release/
-bin/Release/**/refs/
