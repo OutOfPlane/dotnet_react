@@ -7,7 +7,6 @@
     <PublishSingleFile>false</PublishSingleFile>
     <SelfContained>false</SelfContained>
     <PublishTrimmed>false</PublishTrimmed>
-    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <UseAppHost>false</UseAppHost>
   </PropertyGroup>
 
