@@ -1,6 +1,6 @@
 import { Product } from "../backendmodels";
 
-const API_BASE_URL = "http://localhost:5232";
+const API_BASE_URL = "/api";
 
 export async function getProduct(id: number) {
     const response = await fetch(`${API_BASE_URL}/products/${id}`);

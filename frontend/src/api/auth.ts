@@ -1,7 +1,7 @@
 import { User } from "../backendmodels";
 import { Login } from "../backendmodels";
 
-const API_BASE_URL = "http://localhost:5232";
+const API_BASE_URL = "/api";
 
 export async function loginUser(username: string, password: string) {
     const loginData = new Login();
