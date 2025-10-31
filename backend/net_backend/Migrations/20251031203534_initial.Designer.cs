@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace net_backend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250730103441_Dev2")]
-    partial class Dev2
+    [Migration("20251031203534_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,6 +29,9 @@ namespace net_backend.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("Price")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Unit")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
